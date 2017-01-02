@@ -37,13 +37,15 @@ for (int i = 0; i < 100; ++i)
 //print 0 1 2 3 4 5 ... 99 
 ```
 
-##### more types
-```c++
-struct delay_day
-struct delay_week
-struct delay_month
-```
+#####timer
+- [x] 基于min-heap (插入删除复杂度O(log(n))，获取最小元素复杂度O(1)
+- [x] 支持毫秒级的延时触发
+- [x] 支持固定时间点更新 天（例如每天的早上6点10分更新
+- [ ] 支持固定时间点更新 周
+- [ ] 支持固定时间点更新 月
 
+#####depend
+* c++11
 
 MIT License
 
