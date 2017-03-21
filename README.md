@@ -48,4 +48,5 @@ for (int i = 0; i < 100; ++i)
 * c++11
 
 MIT License
+
 Copyright (c) 2016 pojol
